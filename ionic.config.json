@@ -1,0 +1,7 @@
+{
+  "name": "ApexCompanion",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

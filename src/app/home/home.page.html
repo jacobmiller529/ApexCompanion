@@ -1,0 +1,82 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Apex Companion
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="Large">
+        <div style="white-space: normal;">
+          Apex Companion
+        </div>
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="settings">
+    <ion-button href ="/settings" color="dark">
+      <ion-icon  name="cog"></ion-icon>
+    </ion-button>
+
+  </div>
+
+  <div id="Character Display">
+    <ion-card color = danger>
+      <ion-card-header>
+        <ion-card-title>Character</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-item>
+          <img src = "./assets/Bangalore.jpg" >
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div id="Weapon 1 Display">
+    <ion-card color = danger>
+      <ion-card-header>
+        <ion-card-title>Weapon 1</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-item>
+          <img src = "./assets/Hemlok.jpg" >
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+
+  </div>
+
+  <div id="Weapon 2 Display">
+    <ion-card color = danger>
+      <ion-card-header>
+        <ion-card-title>Weapon 2</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-item>
+          <img src = "./assets/volt.jpg" >
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+
+  </div>
+
+  <div id="Challenge Display">
+
+  </div>
+
+
+
+<div id="Go Button">
+  <ion-button color="success" expand="full" shape="round" fill="outline" size="large" (click)="presentActionSheet()">
+    Go
+  </ion-button>
+</div>
+</ion-content>
